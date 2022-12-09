@@ -73,7 +73,7 @@ function App() {
 		}
 		
 		//Apartment Buildings
-		if ((pZone === zones[1] || pZone === zones[2]) && pSize >= 500) {
+		if (pFlood === false && (pZone === zones[1] || pZone === zones[2]) && pSize >= 500) {
 			list.push(buildingTypes[1]);
 		}
 		
